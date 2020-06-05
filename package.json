@@ -1,0 +1,27 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/athusbecker/Ecoleta/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athusbecker/Ecoleta.git"
+  },
+  "keywords": [],
+  "author": "Athus Becker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athusbecker/Ecoleta/issues"
+  },
+  "homepage": "https://github.com/athusbecker/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
