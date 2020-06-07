@@ -20,7 +20,7 @@
 #modal .content {
     color: white;
 
-    width: 420px;
+    width: 460px;
 }
 
 #modal .header {
@@ -50,23 +50,18 @@
 #modal form label {
     font-size: 14px;
     line-height: 16px;
-    display: block;
+    display: none;
     margin-bottom: 8px;
+    visibility: hidden;
 }
 
 #modal form .field {
     display: flex;
 }
 
-#modal form input {
-    flex:1;
-    background-color: #f0f0f5;
-    border-radius: 8px 0 0 8px;
-    border: 0;
-    padding: 16px 24px;
-    font-size: 16px;
-    color: #6c6c80;
-}
+
+
+
 
 #modal form button {
     width: 72px;
@@ -75,6 +70,29 @@
     background-color: var(--primary-color);
     border:0;
     border-radius: 0 8px 8px 0;
+}
+
+#modal form select {
+    width: 160px;
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#modal form input {
+    /* flex:1; */
+    width: 228px;
+    background-color: #f0f0f5;
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
 }
 
 #modal form button:hover {

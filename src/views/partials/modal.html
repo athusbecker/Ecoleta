@@ -6,9 +6,14 @@
             <a href="#">Fechar</a>
         </div>
         <form action="search">
-            <label for="search">Cidade ou Estado</label>
+            <label for="search">"Cidade ou Estado"</label>
             <div class="search field">
-                <input type="text" name="search" placeholder="Pesquise por cidade">
+                <input type="text" name="search" placeholder="Pesquise por">
+                <select name="searchoption" required="required">
+                        <option value="city">Cidade</option>
+                        <option value="state">Estado</option>
+                        <option value="items">Itens de Coleta</option>
+                </select>
                 <button>
                     <img src="assets/icones/search.svg" alt="Buscar">
                 </button>

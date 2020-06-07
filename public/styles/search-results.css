@@ -80,14 +80,15 @@ main .card h1 {
     font-size: 36px;
     line-height: 41px;
     color: #322153;
+    height: 80px;
 }
 
 main .card h3 {
     margin: 24px 0;
 
     font-family: Roboto;
-    font-weight: bold;
-    
+    font-style: normal;
+    font-weight: 500;
     font-size: 24px;
     line-height: 34px;
     
